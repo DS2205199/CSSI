@@ -1,0 +1,9 @@
+{
+    "name": "cssi/cssi",
+    "autoload": {
+        "psr-4": {
+            "Cssi\\Cssi\\": "src/"
+        }
+    },
+    "require": {}
+}

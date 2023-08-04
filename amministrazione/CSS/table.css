@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr {
+    cursor: grab;
+}
+
+th {
+    resize: horizontal;
+    /* Makes the cell resizable */
+}
+
+th::-webkit-resizer {
+    background-color: transparent;
+    padding: 20px;
+}
+
+thead tr {
+    cursor: auto;
+    /* Disable dragging on the header row */
+}
